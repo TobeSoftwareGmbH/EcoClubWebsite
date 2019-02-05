@@ -42,3 +42,7 @@
 .item_title {
    padding: 14px 16px;
 }
+
+.active {
+  background-color: #dd0fdd; /*TODO: Farbe wählen*/
+}
