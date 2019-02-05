@@ -1,3 +1,44 @@
 .menu_heading {
   font-size: 30;
 }
+
+.menu_ul {
+  list-style-type: none;
+
+  /*Browser-Defaults werden überschrieben*/
+  margin: 0;
+  padding: 0;
+}
+
+.menu_item {
+  display: inline; /*Objekte werden nebeneinander gestellt*/
+  float: left;
+}
+
+.menu_link {
+  background-color: #dddddd; /*TODO: Farbe wählen*/
+}
+
+.menu_item .menu_link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /*Entfernt Unterstriche*/
+}
+
+.menu_item .menu_link:hover {
+  background-color: #ddf0dd;
+}
+
+.item_right {
+  float: right;
+}
+
+.item_title {
+  background-color: #dd0fdd; /*TODO: Farbe wählen*/
+}
+
+.item_title {
+   padding: 14px 16px;
+}
