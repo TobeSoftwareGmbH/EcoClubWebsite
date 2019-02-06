@@ -1,0 +1,9 @@
+li {
+  top: 30px;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+body {
+  background-color: #499467;
+}

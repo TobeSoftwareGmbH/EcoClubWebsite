@@ -16,7 +16,7 @@
 }
 
 .menu_link {
-  background-color: #dddddd; /*TODO: Farbe wählen*/
+  background-color: #499467; /*TODO: Farbe wählen*/
 }
 
 .menu_item .menu_link {
@@ -28,7 +28,7 @@
 }
 
 .menu_item .menu_link:hover {
-  background-color: #ddf0dd;
+  background-color: #105A2E;
 }
 
 .item_right {
@@ -36,7 +36,7 @@
 }
 
 .item_title {
-  background-color: #dd0fdd; /*TODO: Farbe wählen*/
+  background-color: #76B38F; /*TODO: Farbe wählen*/
 }
 
 .item_title {
@@ -44,5 +44,5 @@
 }
 
 .active {
-  background-color: #dd0fdd; /*TODO: Farbe wählen*/
+  background-color: #004d1a; /*TODO: Farbe wählen*/
 }
