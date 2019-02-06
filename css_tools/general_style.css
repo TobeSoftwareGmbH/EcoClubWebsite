@@ -1,7 +1,6 @@
 /*Definierte Styles, welche für alle Websiten gelten*/
 object.menu {
 	position: sticky;
-	top: 0;
 	width: 100%;
 	height: 160px;
 }
