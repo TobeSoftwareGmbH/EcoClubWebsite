@@ -3,28 +3,32 @@
     <link rel="stylesheet" type="text/css" href="css_tools/general_style.css">
     <link rel="stylesheet" type="text/css" href="css_tools/slideshow_style.css">
     <link rel="stylesheet" type="text/css" href="css_tools/animate.css">
+    <script type="text/javascript" src="js_tools/slideshow.js"></script>
+    <meta charset="utf-8">
   </head>
   <body>
+
     <div width="100%" class="slideshow_container">
       <div class="slideshow" width="60%" height="auto">
 
         <div class="slide">
-          <div class="number_indicator">0 / 0</div>
-          <img class="slideshow_img" src="img/slideshow/slideshow_1.jpg">
+          <div id="number_indicator" class="number_indicator">0 / 0</div>
+          <img id="slideshow_img" class="slideshow_img" src="img/slideshow/slideshow_1.jpg">
         </div>
 
-        <!-- Next and previous buttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-        <!-- Image text -->
-        <div class="caption-container">
-          <p id="Keine Beschreibung verfügbar"></p>
+        <div class="img-text-container">
+          <h1 id="img_heading_1" class="img_heading_1">Keine Beschreibung verfügbar</h1>
+          <p id="img_heading_2" class="img_heading_2">Am besten einfach eine hinzufügen</p>
         </div>
 
       </div>
     </div>
 
+    <script>showSlide(1);</script>
+    
     <object class="menu animated fadeIn" type="text/html" data="html_tools/menu.html"></object>
 
     <div class="content">

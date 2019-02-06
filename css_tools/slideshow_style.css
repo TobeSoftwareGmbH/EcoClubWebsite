@@ -1,5 +1,6 @@
 .slideshow_container {
     background-color: #2A6B45;
+    margin: -8px; /*Entfernt Balken zwischen Rand und div-Element*/
 }
 
 .slideshow {
@@ -46,4 +47,16 @@
   padding: 8px 12px;
   position: absolute;
   top: 0;
+}
+
+.img-text-container {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  text-align: center;
+  color: #98BFA8;
+}
+
+.img_heading_2 {
+  font-size: 20px;
 }
