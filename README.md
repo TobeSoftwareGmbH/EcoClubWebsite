@@ -11,8 +11,7 @@ Atom (https://atom.io/) ist für diese Prozedur empfohlen
 
 Ein kleiner Plan der Seiten, welche verfügbar sein sollten:
 
-  - Start; selbsterklärend
-  - Über uns; etwas über den Eco-Club und das Ziel der Klimaneutralen Schule
+  - Start; etwas über den Eco-Club und das Ziel der Klimaneutralen Schule
   - Eco-Woche; Alles wichtige über die Eco-Woche. Projekte, Termine, Austellungen etc.
   - Mitmachen: Die Liste der verfügbaren Eco-Club Kurse und wie man sich anmeldet
 
