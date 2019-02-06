@@ -15,8 +15,8 @@ function showSlide() {
 
   switch(page) {
     case 1:
-      document.getElementById("img_heading_1").innerHTML = "Bild 1";
-      document.getElementById("img_heading_2").innerHTML = "Beschreibung 1";
+      document.getElementById("img_heading_1").innerHTML = "Zweiter Stern für uns!";
+      document.getElementById("img_heading_2").innerHTML = "Bild der Verleihung vom 22. Oktober 2018";
       break;
     case 2:
       document.getElementById("img_heading_1").innerHTML = "Bild 2";
