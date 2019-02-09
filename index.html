@@ -1,3 +1,5 @@
+<!-- Die Startseite der Eco-Club Website-->
+
 <html>
   <head>
     <title>Der Eco-Club an der ESM</title>
@@ -9,14 +11,15 @@
   </head>
   <body>
 
-    <div width="100%" class="slideshow_container animated fadeIn">
-      <div class="slideshow" width="60%" height="auto">
+    <div width="100%" class="slideshow_container animated fadeIn"> <!-- Ein Container für die Slideshow-->
+      <div class="slideshow" width="60%" height="auto"> <!-- Breite des Bildes wird redurziert, damit es nicht den gesamten Bildschimr einimmt-->
 
         <div class="slide">
           <div id="number_indicator" class="number_indicator">0 / 0</div>
           <img id="slideshow_img" class="slideshow_img" src="img/slideshow/slideshow_1.jpg">
         </div>
 
+        <!-- Zurück und Next Knöpfe -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
@@ -28,6 +31,7 @@
       </div>
     </div>
 
+    <!-- Ein Skript wird ausgeführt, damit das erste Bild und die Beschreibung direkt beim Besuchen der Website angezeigt wird-->
     <script>showSlide(1);</script>
 
     <object class="menu animated fadeIn" type="text/html" data="html_tools/menu.html"></object>

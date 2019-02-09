@@ -1,3 +1,5 @@
+/*Stylesheet für das Menü*/
+
 .menu_heading {
   font-size: 30;
 }
@@ -16,7 +18,7 @@
 }
 
 .menu_link {
-  background-color: #689F7F; /*TODO: Farbe wählen*/
+  background-color: #689F7F;
 }
 
 .menu_item .menu_link {
@@ -36,7 +38,7 @@
 }
 
 .item_title {
-  background-color: #98BFA8; /*TODO: Farbe wählen*/
+  background-color: #98BFA8;
   left: 10px;
 }
 
@@ -45,5 +47,5 @@
 }
 
 .active {
-  background-color: #004d1a; /*TODO: Farbe wählen*/
+  background-color: #004d1a;
 }
