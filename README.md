@@ -7,7 +7,7 @@ dies ist das GitHub Repo für die Eco-Club Website (URL hier einfügen)
 
 Atom (https://atom.io/) ist für diese Prozedur empfohlen
 
-#Farben
+# Farben
 
 Ein empholener Color-Scheme ist unter https://paletton.com/#uid=12Y0u0kfKn86-zlb5rPjpiLomeU abrufbar
 
