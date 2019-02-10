@@ -1,0 +1,41 @@
+@import url('didact_gothic.css');
+@import url('color.css');
+
+#picker {
+  float: left;
+  flex: 1;
+
+  border-style: solid;
+  border-width: 0.05vw;
+  border-color: var(--dark_primary);
+
+  text-align: center;
+}
+
+#year_programme {
+  width: 90%;
+
+  border-style: solid;
+  border-width: 0.05vw;
+  border-color: var(--dark_primary);
+
+  border-left-width: 0;
+}
+
+#programme {
+  display: flex;
+
+  width: 80%;
+  height: auto;
+
+  margin-left: 1vw;
+  background-color: var(--light_primary);
+}
+
+year_programme.p {
+  font-size: 1vmin;
+}
+
+#year_input {
+  margin: auto;
+}

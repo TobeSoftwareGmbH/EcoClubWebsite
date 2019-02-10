@@ -37,12 +37,11 @@ object.bottom {
 
 .content {
 	margin: 2vw;
-	z-index: -1; /*Hebt Element in den Hintergrund, sodass es nicht über dem Menü liegt*/
 	position: relative;
 }
 
 .p1 {
-	margin-left: 2vw;
+	margin-left: 1vw;
 }
 
 p {
