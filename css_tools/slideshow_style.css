@@ -19,13 +19,12 @@
 .prev, .next {
   cursor: pointer;
   position: absolute; /*Objekt nun verschiebbar*/
-  top: 55%;
+  top: 43%;
   width: auto; /*Breite wird auf Höhe angepasst*/
-  padding: 16px;
-  margin-top: -50px;
+  padding: 1vmin;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 2vmin;
   border-radius: 0 3px 3px 0; /*Ein Rahmen wird gezogen*/
   user-select: none;
   -webkit-user-select: none;
@@ -33,7 +32,7 @@
 
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 1vw 0 0 1vw;
 }
 
 .prev:hover,
@@ -48,8 +47,8 @@
 
 .number_indicator {
   color: var(--text_secondary);
-  font-size: 12px;
-  padding: 8px 12px;
+  font-size: 1.5vh;
+  padding: 1vw 1vh;
   position: absolute;
   top: 0;
 }
@@ -63,6 +62,10 @@
   color: var(--text_secondary);
 }
 
+.img_heading_1 {
+  font-size: 4vmin;
+}
+
 .img_heading_2 {
-  font-size: 20px;
+  font-size: 2vmin;
 }

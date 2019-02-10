@@ -39,3 +39,11 @@ object.bottom {
 .p1 {
 	margin-left: 2vw;
 }
+
+h2 {
+	font-size: 3vmin;
+}
+
+p {
+	font-size: 2vmin;
+}
