@@ -1,7 +1,25 @@
+@import url('color.css');
+
 /*Stylesheet für das Bodenmenü*/
 
+ul {
+  margin:0;
+  padding-top: 5vh;
+}
+
 li {
-  top: 30px;
+  top: 3vw;
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 2vw;
+}
+
+div {
+  margin:0;
+  background-color: var(--light_primary);
+
+  bottom:0;
+}
+
+html {
+  background-color: var(--light_primary);
 }

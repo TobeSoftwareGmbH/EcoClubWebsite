@@ -1,4 +1,5 @@
 @import url('didact_gothic.css');
+@import url('color.css');
 
 /*Definierte Styles, welche für alle Websiten gelten*/
 object.menu {
@@ -8,7 +9,7 @@ object.menu {
 	width: 100%;
 	height: 5vh;
 
-	background: #43855E;
+	background: rgb(54, 152, 142);
 
 	z-index: 1;
 }
@@ -17,9 +18,12 @@ body {
 	font-family: 'Didact Gothic';
 	margin: 0;
 	padding: 0;
+
+	background-color: var(--primary);
 }
 
 object.bottom {
+	position: relative;
 	bottom: 0;
 	margin: 0;
 	padding: 0;
@@ -36,16 +40,4 @@ object.bottom {
 
 .p1 {
 	margin-left: 20px;
-}
-
-#background_light_green {
-	background-color: #689F7F;
-}
-
-#background_green {
-	background-color: #43855E;
-}
-
-#background_dark_green {
-	background-color: #2A6B45;
 }
