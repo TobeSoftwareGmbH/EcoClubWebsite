@@ -1,18 +1,23 @@
 /*Stylesheet für das Menü*/
+body {
+  margin: 0;
+  padding: 0;
+}
 
 .menu_heading {
-  font-size: 30;
+  font-size: ;
 }
 
 .menu_ul {
   list-style-type: none;
-
+  overflow: hidden;
   /*Browser-Defaults werden überschrieben*/
   margin: 0;
   padding: 0;
 }
 
 .menu_item {
+  overflow: hidden;
   display: inline; /*Objekte werden nebeneinander gestellt*/
   float: left;
 }
@@ -25,7 +30,7 @@
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 16px;
   text-decoration: none; /*Entfernt Unterstriche*/
 }
 
@@ -40,7 +45,7 @@
 .item_title {
   background-color: #98BFA8;
   left: 10px;
-  padding: 14px 16px;
+  padding: 12px 16px;
 }
 
 .active {
