@@ -10,6 +10,8 @@
   border-color: var(--dark_primary);
 
   text-align: center;
+
+  padding: 1vh;
 }
 
 #year_programme {
@@ -20,6 +22,8 @@
   border-color: var(--dark_primary);
 
   border-left-width: 0;
+
+  padding: 0;
 }
 
 #programme {
