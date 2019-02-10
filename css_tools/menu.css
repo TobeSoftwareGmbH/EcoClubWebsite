@@ -41,6 +41,10 @@ body {
 
 .item_right {
   float: right;
+
+  border-left-style: solid;
+  border-left-width: 0.05vw;
+  border-left-color: var(--dark_primary);
 }
 
 .item_title {

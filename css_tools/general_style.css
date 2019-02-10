@@ -40,6 +40,10 @@ object.bottom {
 	margin-left: 2vw;
 }
 
+p {
+	font-size: 2vmin;
+}
+
 h2 {
 	font-size: 3vmin;
 }
