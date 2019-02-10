@@ -1,3 +1,5 @@
+@import url('didact_gothic.css');
+
 /*Definierte Styles, welche für alle Websiten gelten*/
 object.menu {
 	position: sticky;
@@ -11,6 +13,7 @@ object.menu {
 
 body {
 	background-color: #43855E;
+	font-family: 'Didact Gothic'
 }
 
 object.bottom {
@@ -24,7 +27,7 @@ object.bottom {
 
 .content {
 	margin: 20px;
-	z-index: -1; /*TODO: Erklärung*/
+	z-index: -1; /*Hebt Element in den Hintergrund, sodass es nicht über dem Menü liegt*/
 	position: relative;
 }
 
