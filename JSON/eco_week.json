@@ -1,13 +1,32 @@
 {
   "monday": {
-    "ex": "Montag"
+    "ex": "Montag",
+    "all": ["Bis 8 Uhr","Eingangshalle","Abgabe der gelben Säcke in der Eingangshalle"],
+    "all": ["4. Stunde","Klassenzimmer","Film (10-20min) und Diskussion zu 'Was können wir tun, um eine grünere Schule zu werden?'"],
   },
 
   "tuesday": {
-    "ex" : "Dienstag"
+    "ex" : "Dienstag",
+    "all": ["Bis 8 Uhr","Eingangshalle","Abgabe der gelben Säcke in der Eingangshalle"],
+    "all": ["2. Stunde","Klassenzimmer","Erklärung der blauen Behälter"],
+    "s6": ["2.-3. Stunde","Schumann (EN), Monnet (DE)","2 Klimakonferenzen"],
+    "s1": ["4.-5. Stunde","Klassenzimmer", "Workshop 'Plastik und seine Vermeidung'"],
   },
 
   "wednesday": {
-    "ex" : "Mittwoch"
-  }
+    "ex" : "Mittwoch",
+    "s1": ["3.-4. Stunde","Klassenzimmer", "Workshop 'Plastik und seine Vermeidung'"],
+    "all": ["16-18 Uhr","Monnet", "Ausstellung 'Plastik - Faszination, Risiken und Lösungen' für die Öffentlichkeit geöffnet"]
+  },
+
+  "thursday": {
+    "ex" : "Donnerstag",
+    "s1": ["1.-5. Stunde","Klassenzimmer", "Workshop 'Plastik und seine Vermeidung'"],
+    "s5": ["8.-9. Stunde","Erasmus und Schumann", "Vortrag einer Taucherin von 'one earth - one ocean'"]
+  },
+
+  "friday": {
+    "ex" : "Freitag"
+  },
+
 }
