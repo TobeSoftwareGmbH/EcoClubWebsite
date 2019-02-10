@@ -10,6 +10,11 @@ object.menu {
 	height: 5vh;
 
 	z-index: 1;
+
+	border-bottom-style: solid;
+  border-bottom-width: 0.05vw;
+  border-bottom-color: var(--dark_primary);
+
 }
 
 body {
