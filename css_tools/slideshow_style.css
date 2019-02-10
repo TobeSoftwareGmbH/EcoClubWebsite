@@ -1,7 +1,7 @@
 /*Stylesheet für die Slideshow*/
 
 .slideshow_container {
-    background-color: #2A6B45;
+    background-color: var(--dark_primary);
     padding-top: 0.2vw;
     padding-bottom: 0.2vw;
 
@@ -47,7 +47,7 @@
 }
 
 .number_indicator {
-  color: #f2f2f2;
+  color: var(--text_secondary);
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -60,7 +60,7 @@
   width: 100%;
   max-width: 100%;
   text-align: center;
-  color: #98BFA8;
+  color: var(--text_secondary);
 }
 
 .img_heading_2 {

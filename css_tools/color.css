@@ -4,9 +4,14 @@
   --primary: #43855E;
   --dark_primary: #2A6B45;
 
+  /*Text primary color: black*/
+  --text_primary: rgb(0, 0, 0);
+
+  /*Text secondary color: very light gray*/
+  --text_secondary: rgb(240, 240, 240);
+
   /*Secondary color: I don't know*/
   --light_secondary: #689F7F;
   --secondary: #43855E;
   --dark_secondary: #2A6B45;
-
 }

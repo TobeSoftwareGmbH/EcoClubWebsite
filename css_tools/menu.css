@@ -20,23 +20,23 @@ body {
 
   border-right-style: solid;
   border-right-width: 0.05vw;
-  border-right-color: rgb(100, 100, 100);
+  border-right-color: var(--dark_primary);
 }
 
 .menu_link {
-  background-color: rgb(54, 152, 142);
+  background-color: var(--primary);
 }
 
 .menu_item .menu_link {
   display: block;
-  color: white;
+  color: var(--text_secondary);
   text-align: center;
   padding: 27vh 1.2vw;
   text-decoration: none; /*Entfernt Unterstriche*/
 }
 
 .menu_item .menu_link:hover {
-  background-color: rgb(44, 132, 132);
+  background-color: var(--dark_primary);
 }
 
 .item_right {
@@ -44,11 +44,12 @@ body {
 }
 
 .item_title {
-  background-color: rgb(69, 157, 157);
+  background-color: var(--light_primary);
   left: 10px;
+  color: var(--text_primary);
   padding: 27vh 1.2vw;
 }
 
 .active {
-  background-color: #004d1a;
+  background-color: var(--dark_primary);
 }
