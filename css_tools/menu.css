@@ -4,10 +4,6 @@ body {
   padding: 0;
 }
 
-.menu_heading {
-  font-size: ;
-}
-
 .menu_ul {
   list-style-type: none;
   overflow: hidden;
@@ -20,6 +16,7 @@ body {
   overflow: hidden;
   display: inline; /*Objekte werden nebeneinander gestellt*/
   float: left;
+  font-size: 36vh;
 }
 
 .menu_link {
@@ -30,7 +27,7 @@ body {
   display: block;
   color: white;
   text-align: center;
-  padding: 12px 16px;
+  padding: 27vh 1.2vw;
   text-decoration: none; /*Entfernt Unterstriche*/
 }
 
@@ -45,7 +42,7 @@ body {
 .item_title {
   background-color: #98BFA8;
   left: 10px;
-  padding: 12px 16px;
+  padding: 27vh 1.2vw;
 }
 
 .active {
