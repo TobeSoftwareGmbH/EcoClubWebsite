@@ -40,10 +40,7 @@
 .item_title {
   background-color: #98BFA8;
   left: 10px;
-}
-
-.item_title {
-   padding: 14px 16px;
+  padding: 14px 16px;
 }
 
 .active {

@@ -4,11 +4,16 @@
 object.menu {
 	position: sticky;
 	top: 0;
-	width: 100%;
+	width: 110%;
 	height: 65px;
 	background: #43855E;
 	opacity: 1.0;
-	margin-top: 10;
+	margin-top: -1vw;
+	margin-bottom: 1vw;
+
+	margin-left: -0.4vw;
+
+	z-index: 1;
 }
 
 body {
