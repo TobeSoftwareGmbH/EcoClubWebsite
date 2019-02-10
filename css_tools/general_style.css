@@ -12,7 +12,6 @@ object.menu {
 }
 
 body {
-	background-color: #43855E;
 	font-family: 'Didact Gothic'
 }
 
@@ -33,4 +32,16 @@ object.bottom {
 
 .p1 {
 	margin-left: 20px;
+}
+
+#background_light_green {
+	background-color: #689F7F;
+}
+
+#background_green {
+	background-color: #43855E;
+}
+
+#background_dark_green {
+	background-color: #2A6B45;
 }

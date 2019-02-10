@@ -53,8 +53,9 @@
 
 .img-text-container {
   position: absolute;
-  top: 80%;
+  bottom: 0;
   width: 100%;
+  max-width: 100%;
   text-align: center;
   color: #98BFA8;
 }
