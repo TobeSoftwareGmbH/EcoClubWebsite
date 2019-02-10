@@ -1,0 +1,13 @@
+{
+  "monday": {
+    "ex": "Montag"
+  },
+
+  "tuesday": {
+    "ex" : "Dienstag"
+  },
+
+  "wednesday": {
+    "ex" : "Mittwoch"
+  }
+}
