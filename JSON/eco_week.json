@@ -1,11 +1,11 @@
 {
-  "monday": {
+  "0": {
     "ex": "Montag",
     "all": ["Bis 8 Uhr","Eingangshalle","Abgabe der gelben Säcke in der Eingangshalle"],
     "all": ["4. Stunde","Klassenzimmer","Film (10-20min) und Diskussion zu 'Was können wir tun, um eine grünere Schule zu werden?'"]
   },
 
-  "tuesday": {
+  "1": {
     "ex" : "Dienstag",
     "all": ["Bis 8 Uhr","Eingangshalle","Abgabe der gelben Säcke in der Eingangshalle"],
     "all": ["2. Stunde (5-Minuten-Pause)","Klassenzimmer","Erklärung der blauen Behälter"],
@@ -13,19 +13,19 @@
     "s1": ["4.-5. Stunde","Klassenzimmer", "Workshop 'Plastik und seine Vermeidung'"]
   },
 
-  "wednesday": {
+  "2": {
     "ex" : "Mittwoch",
     "s1": ["3.-4. Stunde","Klassenzimmer", "Workshop 'Plastik und seine Vermeidung'"],
     "all": ["16-18 Uhr","Monnet", "Ausstellung 'Plastik - Faszination, Risiken und Lösungen' für die Öffentlichkeit geöffnet"]
   },
 
-  "thursday": {
+  "3": {
     "ex" : "Donnerstag",
     "s1": ["1.-5. Stunde","Klassenzimmer", "Workshop 'Plastik und seine Vermeidung'"],
     "s5": ["8.-9. Stunde","Erasmus und Schumann", "Vortrag einer Taucherin von 'one earth - one ocean'"]
   },
 
-  "friday": {
+  "4": {
     "ex" : "Freitag"
   }
 
