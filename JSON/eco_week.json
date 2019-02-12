@@ -12,7 +12,7 @@
     "events": [
       ["all", "Bis 8 Uhr", "Eingangshalle", "Abgabe der gelben Säcke in der Eingangshalle"],
       ["all", "2. Stunde (5-Minuten-Pause)", "Klassenzimmer", "Erklärung der blauen Behälter"],
-      ["6", "2.-3. Stunde", "Schumann (EN), Monnet (DE)", "2 Klimakonferenzen"],
+      ["6", "2.-3. Stunde", "Schumann (L2 EN), Monnet (L2 DE)", "2 Klimakonferenzen"],
       ["1", "4.-5. Stunde","Klassenzimmer", "Workshop 'Plastik und seine Vermeidung'"]
     ]
   },
