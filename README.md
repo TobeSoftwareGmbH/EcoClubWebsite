@@ -20,4 +20,4 @@ Ein kleiner Plan der Seiten, welche verfügbar sein sollten:
   - Eco-Woche; Alles wichtige über die Eco-Woche. Projekte, Termine, Austellungen etc.
   - Mitmachen: Die Liste der verfügbaren Eco-Club Kurse und wie man sich anmeldet
 
-Außerdem sollten die Ergebnisse der Nachforschungen der Calado/Schmoehe-Gruppe gezeigt werden, wahrscheinlich im "Eco-Club"-Tab
+Außerdem sollten die Ergebnisse der Nachforschungen der Calado/Schmoehe-Gruppe gezeigt werden, wahrscheinlich im "Artikel"-Tab
