@@ -17,4 +17,8 @@
 
   /*Article color*/
   --article_background: rgb(140, 140, 140);
+
+  /*Link color*/
+  --link_normal: white;
+  --link_hover: rgb(230, 230, 230);
 }
