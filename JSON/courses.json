@@ -1,22 +1,17 @@
 {
-  "0": {
-    "day": "Mittwoch",
-    "lesson": "6. Stunde",
-    "teacher": "Herr Meyssignac",
-    "mail": "pierre.meyssignac@teacher.eursc.eu"
-  },
-
-  "1": {
-    "day": "Mittwoch",
-    "lesson": "6. Stunde",
-    "teacher": "Frau Calado",
-    "mail": "florbela.calado@teacher.eursc.eu"
-  },
-
   "2": {
-    "day": "Donnerstag",
-    "lesson": "6. Stunde",
-    "teacher": "Frau Schmöhe",
-    "mail": "yaiza.schmohe@teacher.eursc.eu"
+    "day" : "Mittwoch",
+    "courses": [
+      ["6. Stunde", "HS231", "Herr Meyssignac", "pierre.meyssignac@teacher.eursc.eu"],
+      ["6. Stunde", "unknown", "Frau Calado", "florbela.calado@teacher.eursc.eu"]
+    ]
   },
+
+  "3": {
+    "day" : "Donnerstag",
+    "courses": [
+      ["6. Stunde", "unknown", "Frau Schmöhe", "yaiza.schmohe@teacher.eursc.eu"]
+    ]
+  }
+
 }
