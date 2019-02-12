@@ -22,12 +22,17 @@ function getContent(year) {
       //console.log(eventArr[i]);
 
       aud = eventArr[i][0];
-      time = eventArr[i][1];
-      evntLoc = eventArr[i][2];
-      desc = eventArr[i][3];
+      console.log(aud);
+      if (aud.localeCompare("all") == 0 || aud.localeCompare(year) == 0) {
+        console.log("   Check.")
 
-      console.log("For: " + aud + ",\n Time: " + time + ",\n Location: " + evntLoc + ",\n Beschreibung: " + desc + "\n");
-      document.getElementById("year_programme").innerHTML += "For: " + aud + "<br> Time: " + time + "<br> Location: " + evntLoc + "<br> Beschreibung: " + desc + "<br><br>";
+        time = eventArr[i][1];
+        evntLoc = eventArr[i][2];
+        desc = eventArr[i][3];
+
+        //console.log("For: " + aud + ",\n Time: " + time + ",\n Location: " + evntLoc + ",\n Beschreibung: " + desc + "\n");
+        document.getElementById("year_programme").innerHTML += "For: " + aud + "<br> Time: " + time + "<br> Location: " + evntLoc + "<br> Beschreibung: " + desc + "<br><br>";
+      }
     }
 
   }
