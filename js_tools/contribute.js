@@ -6,34 +6,33 @@ function displayCourses() {
   var output="";
   var json_object = JSON.parse(readTextFile("../../JSON/courses.json"));
 
-  for(var day = 0; day < 4; day++) {
+  for(var day = 0; day < 4; day++) { //Alle Tage durchgehen
     jsonDayObject = json_object[day];
 
-    if(jsonDayObject != null) {
+    if(jsonDayObject != null) { //Wenn Tag nicht eingetragen ist, überspringe alles
       dayName = jsonDayObject.day;
-      //console.log(dayName);
 
-      output += "<h3>"+dayName+":</h3>";
+      output += "<h3>"+dayName+":</h3>"; //Überschrift hinzufügen
 
-      for(var i = 0; i < jsonDayObject.courses.length; i++) {
+      for(var i = 0; i < jsonDayObject.courses.length; i++) { //Alle Kurse an diesem Tag durchgehen
         jsonLessonObject = jsonDayObject.courses[i];
-        console.log(jsonLessonObject);
 
+        //Variablen auslesen
         hour = jsonLessonObject[0];
         room = jsonLessonObject[1];
         teacher = jsonLessonObject[2];
         email = jsonLessonObject[3];
 
+        //Text hinzufügen, alles in ein <p>-Element mit Zeilensprüngen
         output += "<p>Wann: "+hour+"<br>Wo: "+room+"<br>Wer: "+teacher+"<br>E-Mail: <a href='mailto:"+email+"'>"+email+"</a></p>";
       }
 
-      output += "<br>"
+      output += "<br>"//Am Ende des Tages einen Absatz hinzufügen
     }
 
   }
 
-  console.log(output);
-  document.getElementById("courses").innerHTML = output;
+  document.getElementById("courses").innerHTML = output; //output dem dafür vorgesehenem div hinzufügen
 }
 
 function readTextFile(file) {

@@ -8,7 +8,7 @@ function getContent(year) {
   //console.log(json_object);
 
 
-  for(var dayNum = 0; dayNum < 4; dayNum++) {
+  for(var dayNum = 0; dayNum < 4; dayNum++) { //Alle Tage durchgehen
     jsonDayObject = json_object[dayNum];
     //console.log(dayNum);
     //console.log(jsonDayObject);
@@ -17,20 +17,21 @@ function getContent(year) {
     eventArr = jsonDayObject.events;
     //console.log("\n")
 
-    output = "<h3>" + jsonDayObject.day + "</h3>";
+    output = "<h3>" + jsonDayObject.day + "</h3>"; //Überschrift für Tag hinzufügen
 
-    for(var i = 0; i < eventArr.length; i++) {
+    for(var i = 0; i < eventArr.length; i++) { //Events an diesem Tag durchgehen
       //console.log(eventArr[i]);
 
       aud = eventArr[i][0];
       console.log(aud);
 
-      if (aud.localeCompare("all") == 0 || aud.localeCompare(year) == 0) {
+      if (aud.localeCompare("all") == 0 || aud.localeCompare(year) == 0) { //Entweder für alle oder für ausgewähltes Jahr
         //console.log("   Check.")
         count++;
 
-        aud = (aud.localeCompare("all") == 0) ? "Alle" : ("S" + year);
+        aud = (aud.localeCompare("all") == 0) ? "Alle" : ("S" + year); //Wenn all, dann alle, sonst Jahrgang
 
+        //Variablen auslesen
         time = eventArr[i][1];
         evntLoc = eventArr[i][2];
         desc = eventArr[i][3];
@@ -41,7 +42,7 @@ function getContent(year) {
     }
 
     if(count != 0) {
-      document.getElementById("year_programme").innerHTML += output;
+      document.getElementById("year_programme").innerHTML += output; //hinzufügen
       count = 0;
     }
   }
