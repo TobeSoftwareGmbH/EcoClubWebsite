@@ -26,9 +26,11 @@
 }
 
 a {
-  color: white;
+  color: var(--link_normal);
+	font-size: 2vmin;
 }
 
 a:hover {
-  font-size:
+	font-size: 2.05vmin;
+  color: var(--link_hover);
 }
