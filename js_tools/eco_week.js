@@ -30,33 +30,6 @@ function getContent(year) {
     }
 
   }
-
-
-  /*
-  for(var i = 0; i < 5; i++) {
-    var jsonDayObject = json_object[i]; //get JSON Elements of that jsonDayObject
-    //console.log(allClasses);
-
-    var allClasses = jsonDayObject.all; //Getting Events for all class levels
-    console.log("Allclasses ++++++++++++++++ " + i + " ++++++++++++++++");
-    console.log(allClasses);
-    console.log("++++++++++++++++ " + i + " ++++++++++++++++");
-
-    if (allClasses != null) {
-      for(var j = 0; j < allClasses.length; j++) {
-        console.log("\n\n\n++++++++++++++++ " + j + " ++++++++++++++++");
-        console.log(allClasses[j]);
-        console.log("+++++++++++++++++++++++++++++++++++++++++++ \n\n\n");
-
-        time = allClasses[j][0];
-        eventLocation = allClasses[j][1];
-        description = allClasses[j][2];
-        //console.log("Year: s"+ year +", time: "+ time +", location: " + eventLocation + ", description: " + description);
-      }
-    }
-
-    //var classSpecific = json_object["s"+year]; //Getting events of specific class level
-  } */
 }
 
 function readTextFile(file) {
