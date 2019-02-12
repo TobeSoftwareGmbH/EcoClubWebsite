@@ -14,4 +14,7 @@
   --light_secondary: #689F7F;
   --secondary: #43855E;
   --dark_secondary: #2A6B45;
+
+  /*Article color*/
+  --article_background: rgb(140, 140, 140);
 }
