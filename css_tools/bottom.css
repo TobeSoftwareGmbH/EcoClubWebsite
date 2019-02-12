@@ -22,6 +22,10 @@ div {
   background-color: var(--light_primary);
   color: var(--text_primary);
   bottom:0;
+
+  width: 100%;
+  position:absolute;
+  left:0;
 }
 
 html {
