@@ -39,7 +39,7 @@ object.bottom {
 	position: relative;
 }
 
-.p1 {
+.content a,p {
 	margin-left: 1vw;
 }
 
@@ -49,4 +49,14 @@ p {
 
 h2 {
 	font-size: 3vmin;
+}
+
+.content a {
+  color: var(--link_normal);
+	font-size: 2vmin;
+}
+
+.content a:hover {
+	font-size: 2.01vmin;
+  color: var(--link_hover);
 }
