@@ -39,7 +39,7 @@ object.bottom {
 	position: relative;
 }
 
-.content a,p {
+.content p {
 	margin-left: 1vw;
 }
 
@@ -59,4 +59,8 @@ h2 {
 .content a:hover {
 	font-size: 2.01vmin;
   color: var(--link_hover);
+}
+
+.indented {
+	margin-left: 1vw;
 }
