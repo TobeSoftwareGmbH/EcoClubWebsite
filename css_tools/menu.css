@@ -19,7 +19,7 @@ body {
   font-size: 36vmin;
 
   border-right-style: solid;
-  border-right-width: 0.05vw;
+  border-right-width: 1px;
   border-right-color: var(--dark_primary);
 }
 
@@ -43,7 +43,7 @@ body {
   float: right;
 
   border-left-style: solid;
-  border-left-width: 0.05vw;
+  border-left-width: 1px;
   border-left-color: var(--dark_primary);
 }
 

@@ -12,7 +12,7 @@ object.menu {
 	z-index: 1;
 
 	border-bottom-style: solid;
-  border-bottom-width: 0.05vw;
+  border-bottom-width: 1px;
   border-bottom-color: var(--dark_primary);
 
 }
