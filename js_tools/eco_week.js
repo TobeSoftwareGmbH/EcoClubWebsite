@@ -1,4 +1,5 @@
 function getContent(year) {
+  document.getElementById("year_programme").innerHTML = "";
   var time, evntLoc, desc, aud;
   var output;
   var eventArr;
