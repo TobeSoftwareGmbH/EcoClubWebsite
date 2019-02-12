@@ -26,13 +26,12 @@ body {
 }
 
 object.bottom {
-	position: relative;
+	position: static;
 	bottom: 0%;
 	margin: 0;
-	padding: 0;
 	right: 0;
 	width: 100%;
-	height: auto; /*Höhe wird auf Breite angepasst*/
+	height: 100%;
 }
 
 .content {

@@ -5,6 +5,8 @@
 ul {
   margin:0;
   padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 0;
 }
 
 li {
@@ -26,8 +28,4 @@ div {
   width: 100%;
   position:absolute;
   left:0;
-}
-
-html {
-  background-color: var(--light_primary);
 }
