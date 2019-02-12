@@ -1,0 +1,22 @@
+{
+  "0": {
+    "day": "Mittwoch",
+    "lesson": "6. Stunde",
+    "teacher": "Herr Meyssignac",
+    "mail": "pierre.meyssignac@teacher.eursc.eu"
+  },
+
+  "1": {
+    "day": "Mittwoch",
+    "lesson": "6. Stunde",
+    "teacher": "Frau Calado",
+    "mail": "florbela.calado@teacher.eursc.eu"
+  },
+
+  "2": {
+    "day": "Donnerstag",
+    "lesson": "6. Stunde",
+    "teacher": "Frau Schmöhe",
+    "mail": "yaiza.schmohe@teacher.eursc.eu"
+  },
+}
