@@ -1,40 +1,49 @@
 function getContent(year) {
   document.getElementById("year_programme").innerHTML = "";
-  var time, evntLoc, desc, aud;
+  var time, evntLoc, desc, aud, output, count;
   var output;
   var eventArr;
   var jsonDayObject;
   var json_object = JSON.parse(readTextFile("../../JSON/eco_week.json"));
   //console.log(json_object);
 
+
   for(var dayNum = 0; dayNum < 4; dayNum++) {
     jsonDayObject = json_object[dayNum];
     //console.log(dayNum);
     //console.log(jsonDayObject);
 
-    console.log(jsonDayObject.day + ": ");
+    //console.log(jsonDayObject.day + ": ");
     eventArr = jsonDayObject.events;
     //console.log("\n")
 
-    document.getElementById("year_programme").innerHTML += "<h3>" + jsonDayObject.day + "</h3>";
+    output = "<h3>" + jsonDayObject.day + "</h3>";
 
     for(var i = 0; i < eventArr.length; i++) {
       //console.log(eventArr[i]);
 
       aud = eventArr[i][0];
       console.log(aud);
+
       if (aud.localeCompare("all") == 0 || aud.localeCompare(year) == 0) {
-        console.log("   Check.")
+        //console.log("   Check.")
+        count++;
+
+        aud = (aud.localeCompare("all") == 0) ? "Alle" : ("S" + year);
 
         time = eventArr[i][1];
         evntLoc = eventArr[i][2];
         desc = eventArr[i][3];
 
         //console.log("For: " + aud + ",\n Time: " + time + ",\n Location: " + evntLoc + ",\n Beschreibung: " + desc + "\n");
-        document.getElementById("year_programme").innerHTML += "For: " + aud + "<br> Time: " + time + "<br> Location: " + evntLoc + "<br> Beschreibung: " + desc + "<br><br>";
+        output += "Für: " + aud + "<br> Zeit: " + time + "<br> Ort: " + evntLoc + "<br> Beschreibung: " + desc + "<br><br>";
       }
     }
 
+    if(count != 0) {
+      document.getElementById("year_programme").innerHTML += output;
+      count = 0;
+    }
   }
 }
 
