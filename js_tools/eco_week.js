@@ -16,7 +16,7 @@ function getContent(year) {
     eventArr = jsonDayObject.events;
     //console.log("\n")
 
-    document.getElementById("year_programme").innerHTML += "<h2>" + jsonDayObject.day + "</h2>";
+    document.getElementById("year_programme").innerHTML += "<h3>" + jsonDayObject.day + "</h3>";
 
     for(var i = 0; i < eventArr.length; i++) {
       //console.log(eventArr[i]);
