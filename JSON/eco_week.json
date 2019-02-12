@@ -1,32 +1,35 @@
 {
   "0": {
-    "ex": "Montag",
-    "all": ["Bis 8 Uhr","Eingangshalle","Abgabe der gelben Säcke in der Eingangshalle"],
-    "all1": ["4. Stunde","Klassenzimmer","Film (10-20min) und Diskussion zu 'Was können wir tun, um eine grünere Schule zu werden?'"]
+    "day": "Montag",
+    "events": [
+      ["all", "Bis 8 Uhr", "Eingangshalle", "Abgabe der gelben Säcke in der Eingangshalle"],
+      ["all", "4. Stunde", "Klassenzimmer", "Film (10-20min) und Diskussion zu 'Was können wir tun, um eine grünere Schule zu werden?'"]
+    ]
   },
 
   "1": {
-    "ex" : "Dienstag",
-    "all": ["Bis 8 Uhr","Eingangshalle","Abgabe der gelben Säcke in der Eingangshalle"],
-    "all1": ["2. Stunde (5-Minuten-Pause)","Klassenzimmer","Erklärung der blauen Behälter"],
-    "s6": ["2.-3. Stunde","Schumann (EN), Monnet (DE)","2 Klimakonferenzen"],
-    "s1": ["4.-5. Stunde","Klassenzimmer", "Workshop 'Plastik und seine Vermeidung'"]
+    "day" : "Dienstag",
+    "events": [
+      ["all", "Bis 8 Uhr", "Eingangshalle", "Abgabe der gelben Säcke in der Eingangshalle"],
+      ["all", "2. Stunde (5-Minuten-Pause)", "Klassenzimmer", "Erklärung der blauen Behälter"],
+      ["6", "2.-3. Stunde", "Schumann (EN), Monnet (DE)", "2 Klimakonferenzen"],
+      ["1", "4.-5. Stunde","Klassenzimmer", "Workshop 'Plastik und seine Vermeidung'"]
+    ]
   },
 
   "2": {
-    "ex" : "Mittwoch",
-    "s1": ["3.-4. Stunde","Klassenzimmer", "Workshop 'Plastik und seine Vermeidung'"],
-    "all": ["16-18 Uhr","Monnet", "Ausstellung 'Plastik - Faszination, Risiken und Lösungen' für die Öffentlichkeit geöffnet"]
+    "day" : "Mittwoch",
+    "events": [
+      ["all", "16-18 Uhr", "Monnet", "Ausstellung 'Plastik - Faszination, Risiken und Lösungen' für die Öffentlichkeit geöffnet"],
+      ["1", "3.-4. Stunde","Klassenzimmer", "Workshop 'Plastik und seine Vermeidung'"]
+    ]
   },
 
   "3": {
-    "ex" : "Donnerstag",
-    "s1": ["1.-5. Stunde","Klassenzimmer", "Workshop 'Plastik und seine Vermeidung'"],
-    "s5": ["8.-9. Stunde","Erasmus und Schumann", "Vortrag einer Taucherin von 'one earth - one ocean'"]
-  },
-
-  "4": {
-    "ex" : "Freitag"
+    "day" : "Donnerstag",
+    "events": [
+      ["1", "1.-5. Stunde","Klassenzimmer", "Workshop 'Plastik und seine Vermeidung'"],
+      ["5", "8.-9. Stunde","Erasmus und Schumann", "Vortrag einer Taucherin von 'one earth - one ocean'"]
+    ]
   }
-
 }

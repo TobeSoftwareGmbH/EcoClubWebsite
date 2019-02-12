@@ -23,7 +23,9 @@
 
   border-left-width: 0;
 
-  padding: 0;
+  padding-left: 1vw;
+  font-size: 3vmin;
+  font-family: 'Didact Gothic';
 }
 
 #programme {
@@ -34,10 +36,6 @@
 
   margin-left: 1vw;
   background-color: var(--light_primary);
-}
-
-year_programme.p {
-  font-size: 1vmin;
 }
 
 #year_input {
