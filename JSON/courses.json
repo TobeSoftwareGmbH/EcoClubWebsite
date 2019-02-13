@@ -1,4 +1,11 @@
 {
+  "0": {
+    "day" : "Montag",
+    "courses": [
+      ["6. Stunde", "unknown", "Herr Waldmüller", "martin.waldmueller@teacher.eursc.eu"]
+    ]
+  },
+
   "2": {
     "day" : "Mittwoch",
     "courses": [
