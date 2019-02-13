@@ -20,8 +20,14 @@ div.art_info {
 
 h4.art_title {
   font-size: 3vh;
+  margin-bottom: 0.1vh;
 }
 
 p.art_author {
+  text-decoration: none;
+  margin: 0;
+}
+
+a {
   text-decoration: none;
 }
