@@ -20,12 +20,13 @@ p.bottom_text {
 }
 
 div {
-  margin:0;
+  margin: 0;
+  padding: 0;
   background-color: var(--light_primary);
   color: var(--text_primary);
-  bottom:0;
 
   width: 100%;
   position:absolute;
   left:0;
+  height: 100vh
 }
