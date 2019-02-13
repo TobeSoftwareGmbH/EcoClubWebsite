@@ -30,12 +30,18 @@ object.bottom {
 	margin: 0;
 	right: 0;
 	width: 100%;
-	height: 20vh;
+
+	height: 15.75vh;
+
+	text-align: center;
 }
 
 .content {
 	margin: 2vw;
 	position: relative;
+
+	margin-left: 10vw;
+	margin-right: 10vw;
 }
 
 .content p {

@@ -7,6 +7,8 @@ ul {
   padding-top: 5vh;
   padding-bottom: 5vh;
   padding-left: 0;
+
+  text-align: center;
 }
 
 li {
