@@ -1,0 +1,27 @@
+@import url('color.css');
+
+div.article {
+  border-style: solid;
+  border-color: var(--text_primary);
+  border-width: thin;
+  margin-bottom: 1vh;
+  height: 22vh;
+}
+
+img.art_img {
+  margin: 1vmin;
+  height: 20vh;
+  width: 20vh;
+  float: left;
+}
+
+div.art_info {
+}
+
+h4.art_title {
+  font-size: 3vh;
+}
+
+p.art_author {
+  text-decoration: none;
+}

@@ -1,30 +1,8 @@
 {
-  "0": {
-    "title" : "Falsche Flaschen - Bitte vermeiden",
-    "author" : "Arturo Roberti",
-    "preview" : "Bitte Vorschau hinzufügen",
-    "preview-image" : "placeholder"
-  },
-
-  "1": {
-    "title" : "Supermarkt im Plastik",
-    "author" : "Niclas Fleitmann",
-    "preview" : "Bitte Vorschau hinzufügen",
-    "preview-image" : "placeholder"
-  },
-
-  "2": {
-    "title" : "Was ziehen wir eigentlich an?",
-    "author" : "Felix Langer",
-    "preview" : "Bitte Vorschau hinzufügen",
-    "preview-image" : "placeholder"
-  },
-
-  "3": {
-    "title" : "Essensaufbewahrung",
-    "author" : "David Bühler",
-    "preview" : "Bitte Vorschau hinzufügen",
-    "preview-image" : "placeholder"
-  },
-
+  "articles" : [
+    ["Falsche Flaschen - Bitte vermeiden", "Arturo Roberti", "Bitte Vorschau hinzufügen", "placeholder", "flaschen.html"],
+    ["Supermarkt im Plastik", "Niclas Fleitmann", "Bitte Vorschau hinzufügen", "placeholder", "supermarkt.html"],
+    ["Was ziehen wir eigentlich an?", "Felix Langer", "Bitte Vorschau hinzufügen", "placeholder", "kleidung.html"],
+    ["Essensaufbewahrung", "David Bühler", "Bitte Vorschau hinzufügen", "placeholder", "essensaufbewahrung.html"]
+  ]
 }
