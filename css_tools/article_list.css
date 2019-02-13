@@ -16,6 +16,8 @@ img.art_img {
 }
 
 div.art_info {
+  max-height: 100%;
+  overflow: hidden;
 }
 
 h4.art_title {
@@ -26,6 +28,11 @@ h4.art_title {
 p.art_author {
   text-decoration: none;
   margin: 0;
+}
+
+p.art_description {
+  overflow: hidden;
+  margin-bottom: 1vh;
 }
 
 a {
