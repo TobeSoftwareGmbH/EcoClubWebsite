@@ -32,6 +32,7 @@
 
   width: 80%;
   height: auto;
+  min-height: 50vh;
 
   margin-left: 1vw;
   background-color: var(--light_primary);
