@@ -12,7 +12,7 @@ function displayArticles() {
     title = articleObject[0];
     author = articleObject[1];
     description = articleObject[2];
-    image_file = articleObject[3];
+    image_file = (articleObject[3] == "placeholder") ? "placeholder.png" : articleObject[3];
     file = articleObject[4];
 
     output += "<div class='article'><a href='"+file+"'><img class='art_img' src='../../img/articles_preview/"+image_file+"'></img>"
