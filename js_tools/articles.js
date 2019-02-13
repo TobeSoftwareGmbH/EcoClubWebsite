@@ -1,5 +1,5 @@
 function displayArticles() {
-  var title, author, description, image_file, file;
+  var title, author, description, image_file, file, pub_date;
   var articleObject;
 
   var output = "";
@@ -10,10 +10,11 @@ function displayArticles() {
     articleObject = json_object.articles[art];
 
     title = articleObject[0];
-    author = articleObject[1];
+    author = "von " + articleObject[1];
     description = articleObject[2];
     image_file = (articleObject[3] == "placeholder") ? "placeholder.png" : articleObject[3];
     file = articleObject[4];
+    pub_date = "veröffentlicht am " + articleObject[5]; //not used
 
     output += "<div class='article'><a href='"+file+"'><img class='art_img' src='../../img/articles_preview/"+image_file+"'></img>"
     output += "<div class='art_info'><h4 class='art_title'>"+title+"</h4><p class='art_author'>"+author+"</p><p class='art_description'>"+description+"</p></div>"

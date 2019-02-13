@@ -1,8 +1,8 @@
 {
   "articles" : [
-    ["Falsche Flaschen - Bitte vermeiden", "Arturo Roberti", "Bitte Vorschau hinzufügen", "placeholder", "flaschen.html"],
-    ["Supermarkt im Plastik", "Niclas Fleitmann", "Bitte Vorschau hinzufügen", "placeholder", "supermarkt.html"],
-    ["Was ziehen wir eigentlich an?", "Felix Langer", "Bitte Vorschau hinzufügen", "placeholder", "kleidung.html"],
-    ["Essensaufbewahrung", "David Bühler", "Bitte Vorschau hinzufügen", "placeholder", "essensaufbewahrung.html"]
+    ["Falsche Flaschen - Bitte vermeiden", "Arturo Roberti", "Vorschau für den Artikel", "placeholder", "flaschen.html", "00.00.0000"],
+    ["Supermarkt im Plastik", "Niclas Fleitmann", "Vorschau für den Artikel", "placeholder", "supermarkt.html", "00.00.0000"],
+    ["Was ziehen wir eigentlich an?", "Felix Langer", "Vorschau für den Artikel", "placeholder", "kleidung.html", "00.00.0000"],
+    ["Essensaufbewahrung", "David Bühler", "Vorschau für den Artikel", "placeholder", "essensaufbewahrung.html", "00.00.0000"]
   ]
 }
