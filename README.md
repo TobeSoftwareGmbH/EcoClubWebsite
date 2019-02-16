@@ -1,3 +1,7 @@
+# Entwicklung eingestellt
+
+Aufgrund dessen, dass wir unsere Website nicht hochladen dürfen, wurde dieses Projekt leider eingestampft.
+
 # EcoClubWebsite
 
 Seien Sie gegrüßt werte Reisenden,
