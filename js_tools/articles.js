@@ -16,7 +16,7 @@ function displayArticles() {
     file = articleObject[4];
     pub_date = "veröffentlicht am " + articleObject[5]; //not used
 
-    output += "<div class='article'><a href='"+file+"'><img class='art_img' src='../../img/articles_preview/"+image_file+"'></img>"
+    output += "<div type='submit' class='article'><a href='"+file+"'><img class='art_img' src='../../img/articles_preview/"+image_file+"'></img>"
     output += "<div class='art_info'><h4 class='art_title'>"+title+"</h4><p class='art_author'>"+author+"</p><p class='art_description'>"+description+"</p></div>"
     output += "</a></div>"
     output += " <div style='clear: both;'></div> "

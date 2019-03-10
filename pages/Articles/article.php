@@ -12,6 +12,9 @@
     <object class="menu animated fadeIn" type="text/html" data="../../html_tools/menu.html"></object>
 
     <div class="content animated fadeIn">
+      <?php
+        echo "<p>" + $_POST["id"] "</p>";
+      ?>
     </div>
 
     <br><br><br><br>
