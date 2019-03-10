@@ -69,3 +69,7 @@ h2 {
 .indented {
 	margin-left: 1vw;
 }
+
+footer {
+	bottom: 0px;
+}

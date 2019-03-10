@@ -1,5 +1,5 @@
 function displayArticles() {
-  var title, author, description, image_file, file, pub_date;
+  var title, author, description, image_file, file, pub_date, id;
   var articleObject;
 
   var output = "";
@@ -15,8 +15,9 @@ function displayArticles() {
     image_file = (articleObject[3] == "placeholder") ? "placeholder.png" : articleObject[3];
     file = articleObject[4];
     pub_date = "veröffentlicht am " + articleObject[5]; //not used
+    id =articleObject[6];
 
-    output += "<div class='article'><a href='"+file+"'><img class='art_img' src='../../img/articles_preview/"+image_file+"'></img>"
+    output += "<div class='article'><a href='article.php?id=" + id +"'><img class='art_img' src='../../img/articles_preview/"+image_file+"'></img>"
     output += "<div class='art_info'><h4 class='art_title'>"+title+"</h4><p class='art_author'>"+author+"</p><p class='art_description'>"+description+"</p></div>"
     output += "</a></div>"
     output += " <div style='clear: both;'></div> "

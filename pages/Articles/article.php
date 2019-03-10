@@ -13,13 +13,14 @@
 
     <div class="content animated fadeIn">
       <?php
-        echo "<p>" + $_POST["id"] "</p>";
+        echo $_GET["id"];
       ?>
     </div>
 
     <br><br><br><br>
-
-    <object class="bottom animated fadeIn" type="text/html" data="../../html_tools/bottom.html"></object>
+    <footer>
+      <object class="bottom animated fadeIn" type="text/html" data="../../html_tools/bottom.html"></object>
+    </footer>
   </body>
 
 </html>
