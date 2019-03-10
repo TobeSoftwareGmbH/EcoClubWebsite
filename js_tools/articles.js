@@ -27,7 +27,7 @@ function displayArticlePreview() {
 
 function displayArticle(id) {
   console.log(id);
-  var title, author, description, output, paragraphs;
+  var title, author, description, output, paragraphs, email;
 
   var json_object = JSON.parse(readTextFile("../../JSON/articles.json"));
   var articleObject = json_object.articles[id];
@@ -37,6 +37,7 @@ function displayArticle(id) {
   title = articleObject.title;
   author = articleObject.author;
   description = articleObject.description;
+  email = articleObject.email;
 
   paragraphs = articleObject.paragraphs;
   //console.log(articleObject);
@@ -47,6 +48,8 @@ function displayArticle(id) {
 
   document.getElementById("article_title").innerHTML = title;
   document.getElementById("author").innerHTML += author;
+
+  document.getElementById("article").innerHTML += "<p>Für weitere Fragen und Kommentare: <a href='mailto:" + email + "'>" + email + "</a></p>";
 }
 
 function readTextFile(file) {

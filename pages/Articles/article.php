@@ -11,7 +11,7 @@
   <body>
     <object class="menu animated fadeIn" type="text/html" data="../../html_tools/menu.html"></object>
 
-    <div class="article animated fadeIn">
+    <div id = "article" class = "animated fadeIn">
       <h2 id = "article_title"></h2>
       <i><p id = "author">Geschrieben von </p></i>
 
@@ -19,8 +19,6 @@
       </div>
 
       <br><br>
-
-      <p>Für weitere Fragen und Kommentare: <a href="mailto:arturo.roberti@student.eursc.eu">arturo.roberti@student.eursc.eu</a></p>
     </div>
 
     <object class="bottom animated fadeIn" type="text/html" data="../../html_tools/bottom.html"></object>
