@@ -1,12 +1,12 @@
 @import url('color.css');
 
-.author {
+#author {
   font-size: 2vmin;
   margin-top: 0;
   margin-left: 0;
 }
 
-.article_title {
+#article_title {
   margin-bottom: 0vh;
 }
 
@@ -34,6 +34,6 @@ a:hover {
   color: var(--link_hover);
 }
 
-.article_text p {
+#article_text p {
   margin-left: 1vw;
 }
