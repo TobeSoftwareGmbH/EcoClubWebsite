@@ -5,15 +5,17 @@ function displayArticlePreview() {
   var output = "";
   var json_object = JSON.parse(readTextFile("../../JSON/articles.json"));
 
+  var stringValues = setupAutomaticArticleLoading();
+
   //console.log(json_object.articles);
   for(var art = 0; art < json_object.articles.length; art++) { //Alle Artikel durchgehen
     articleObject = json_object.articles[art];
 
     title = articleObject.title;
-    author = "von " + articleObject.author;
+    author = stringValues[0]+" " + articleObject.author;
     description = articleObject.description;
     image_file = (articleObject.picture == "placeholder") ? "placeholder.png" : articleObject[3];
-    pub_date = "veröffentlicht am " + articleObject.pub_date //not used
+    pub_date = stringValues[1]+" " + articleObject.pub_date //not used
 
     output += "<div class='article'><a href='article.php?id=" + art +"'><img class='art_img' src='../../img/articles_preview/"+image_file+"'></img>"
     output += "<div class='art_info'><h4 class='art_title'>" + title + "</h4><p class='art_author'>"+author+"</p><p class='art_description'>"+description+"</p></div>"

@@ -55,8 +55,11 @@
 
   "articles":
     {
-      "heading": "Die Artikel des Eco-Clubs",
+      "heading_1": "Die Artikel des Eco-Clubs",
       "paragraph_1": "Oft hat man das Gefühl, nicht zu wissen, was nun eigentlich wirklich wichtig für die Umwelt ist.<br>Diese Artikel sind ein guter Ansatzpunkt, um sich über diverse Themen zu informieren.",
-      "paragraph_2": "In Zukunft finden sich hier hoffentlich eine Vielzahl an Artikeln.<br>Zur Zeit aber nur die Artikel zur Vitrine gegenüber Frau Weidel's Büro."
+      "paragraph_2": "In Zukunft finden sich hier hoffentlich eine Vielzahl an Artikeln.<br>Zur Zeit aber nur die Artikel zur Vitrine gegenüber Frau Weidel's Büro.",
+
+      "by": "von",
+      "published_at": "veröffentlicht am"
     }
 }

@@ -104,6 +104,32 @@ function setupAutoGenerateCourses() {
 }
 
 
+function setupArticleHome() {
+  var lang = getLang();
+
+  var json_object = JSON.parse(readTextFile("../../JSON/lang_" + lang + ".json"));
+
+  var json_page_object = json_object["articles"];
+
+  document.getElementById("heading_1").innerHTML = json_page_object["heading_1"];
+  document.getElementById("paragraph_1").innerHTML = json_page_object["paragraph_1"];
+  document.getElementById("paragraph_2").innerHTML = json_page_object["paragraph_2"];
+}
+
+function setupAutomaticArticleLoading() {
+  var lang = getLang();
+
+  var json_object = JSON.parse(readTextFile("../../JSON/lang_" + lang + ".json"));
+
+  var json_page_object = json_object["articles"];
+
+  var by = json_page_object["by"];
+  var published_at = json_page_object["published_at"];
+
+  return [by, published_at];
+}
+
+
 function readTextFile(file) {
     var rawFile = new XMLHttpRequest();
     var allText;
