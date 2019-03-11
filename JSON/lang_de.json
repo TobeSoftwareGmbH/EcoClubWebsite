@@ -36,6 +36,23 @@
       "paragraph_3": "'Umweltschulen in Europa' ist eine eine Auszeichnung, um die sich bayerische Schulen bewerben können. Um die Auszeichnung für ein Jahr zu erhalten, müssen sie mehrere Kriterien erfüllen, u.a. die Vorstellung von zwei Projekten zum Thema Umwelt und Nachhaltigkeit und eine Darstellung, wie Nachhaltigkeit im Schulleben verankert ist."
     },
 
+  "contribute":
+    {
+      "heading_1": "Du möchtest beim Eco-Club mitmachen?",
+      "paragraph_1": "Das ist super! Hier findest du alle Infos zu allen verfügbaren Kursen:",
+
+      "monday": "Montag",
+      "tuesday": "Dienstag",
+      "wednesday": "Mittwoch",
+      "thursday": "Donnerstag",
+      "friday": "Freitag",
+
+      "when": "Wann",
+      "where": "Wo",
+      "who": "Wer",
+      "e-mail": "E-Mail"
+    },
+
   "articles":
     {
       "heading": "Die Artikel des Eco-Clubs",

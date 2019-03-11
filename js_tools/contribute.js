@@ -6,11 +6,13 @@ function displayCourses() {
   var output="";
   var json_object = JSON.parse(readTextFile("../../JSON/courses.json"));
 
+  var stringData = setupAutoGenerateCourses();
+
   for(var day = 0; day < 4; day++) { //Alle Tage durchgehen
     jsonDayObject = json_object[day];
 
     if(jsonDayObject != null) { //Wenn Tag nicht eingetragen ist, überspringe alles
-      dayName = jsonDayObject.day;
+      dayName = stringData[day];
 
       output += "<h3>"+dayName+":</h3>"; //Überschrift hinzufügen
 
@@ -24,7 +26,7 @@ function displayCourses() {
         email = jsonLessonObject[3];
 
         //Text hinzufügen, alles in ein <p>-Element mit Zeilensprüngen
-        output += "<p>Wann: "+hour+"<br>Wo: "+room+"<br>Wer: "+teacher+"<br>E-Mail: <a href='mailto:"+email+"'>"+email+"</a></p>";
+        output += "<p>"+stringData[5]+": "+hour+"<br>"+stringData[6]+": "+room+"<br>"+stringData[7]+": "+teacher+"<br>"+stringData[8]+": <a href='mailto:"+email+"'>"+email+"</a></p>";
       }
 
       output += "<br>"//Am Ende des Tages einen Absatz hinzufügen

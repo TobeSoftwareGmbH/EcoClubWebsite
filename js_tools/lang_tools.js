@@ -71,6 +71,39 @@ function setupFooter() {
 }
 
 
+function setupContribute() {
+  var lang = getLang();
+
+  var json_object = JSON.parse(readTextFile("../../JSON/lang_" + lang + ".json"));
+
+  var json_page_object = json_object["contribute"];
+
+  document.getElementById("heading_1").innerHTML = json_page_object["heading_1"];
+  document.getElementById("paragraph_1").innerHTML = json_page_object["paragraph_1"];
+}
+
+function setupAutoGenerateCourses() {
+  var lang = getLang();
+
+  var json_object = JSON.parse(readTextFile("../../JSON/lang_" + lang + ".json"));
+
+  var json_page_object = json_object["contribute"];
+
+  var mon = json_page_object["monday"];
+  var tue = json_page_object["tuesday"];
+  var wed = json_page_object["wednesday"];
+  var thu = json_page_object["thursday"];
+  var fri = json_page_object["friday"];
+
+  var when = json_page_object["when"];
+  var where = json_page_object["where"];
+  var who = json_page_object["who"];
+  var email = json_page_object["e-mail"];
+
+  return [mon, tue, wed, thu, fri, when, where, who, email];
+}
+
+
 function readTextFile(file) {
     var rawFile = new XMLHttpRequest();
     var allText;
