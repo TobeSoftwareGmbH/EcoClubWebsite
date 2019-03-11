@@ -1,0 +1,65 @@
+{
+  "menu" :
+    {
+      "home": "Home",
+      "contribute": "Contribute",
+      "articles": "Articles",
+      "languages": "Language"
+  },
+
+
+  "footer" :
+    {
+      "message": "This website has been designed by Tobias Kamm and Mario San-Bento Furtado. It is 100% Open-Source and hosted on GitHub."
+    },
+
+
+  "home":
+    {
+      "slideshow_h1": "Our second star!",
+      "slideshow_p1": "Picture of the ceremony on the 22 October 2018",
+
+      "slideshow_h2": "Image 2",
+      "slideshow_p2": "Description 2",
+
+      "slideshow_h3": "Image 3",
+      "slideshow_p3": "Description 3",
+
+      "slideshow_h4": "Image 4",
+      "slideshow_p4": "Description 4",
+
+      "heading_1": "Welcome to the Eco-Club's Website!",
+      "paragraph_1": "With a total number of three groups on three different days, the Eco-Club meets weekly to discuss new topics, make experiments or to start new projects, all of this relating to make this school more environmentally friendly. This website is there to give you an insight into our current and future work.",
+      "paragraph_2": "Our goal is to be a climate-neutral school. For our work, we have already received the second star of the 'Umweltschulen in Europa' project, while our goal is to receive the third star.",
+
+      "heading_2": "What is 'Umweltschulen in Europa'?",
+      "paragraph_3": "'Umweltschulen in Europa' is an award for which bavarian schools can apply. To receive it for one year, they have to fulfill multiple criteria, including two projects about the topics of environment and sustainability."
+    },
+
+  "contribute":
+    {
+      "heading_1": "You want to take part in the Eco-Club?",
+      "paragraph_1": "That's great! Here are all the available lessons and contact information:",
+
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+
+      "when": "When",
+      "where": "Where",
+      "who": "Who",
+      "e-mail": "E-Mail"
+    },
+
+  "articles":
+    {
+      "heading_1": "The articles of the Eco-Club",
+      "paragraph_1": "Often, you might be insecure about what is good for the environment and what not.<br>These articles have the aim to keep you informed about the most important topics.",
+      "paragraph_2": "In the future, there might be numerous articles here.<br>Right now however, you can only find the ones located opposite of Ms. Weidel's office.",
+
+      "by": "by",
+      "published_at": "published at"
+    }
+}
