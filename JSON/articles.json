@@ -31,14 +31,21 @@
     },
 
     {
-      "title": "Was ziehen wir eigentlich an?",
+      "title": "Kleidungsstoffe",
       "author": "Felix Langer",
-      "description": "Vorschau für den Artikel",
+      "description": "Der aus Plastik hergestellte Kleidungsstoff Polyester ist heute weit verbreitet. Doch ist gibt es nicht auch andere umweltfreundlichere Alternativen?",
       "picture": "placeholder",
       "pub_date": "00.00.0000",
       "email": "felix.langer@student.eursc.eu",
       "paragraphs": [
-
+          "<h3>Polyester</h3>",
+          "Die der Preis für einen Meter Polyester ist vergleichsweise billig und liegt ungefähr bei 5,00€. Hinsichtlich dessen ist Polyester den Alternativen zumindest teilweise überlegen. Dies liegt vor allem an geringen Produktionskosten und dem niedrigen Ölpreis. Angesichts gesundheitlicher Aspekte gilt Polyester als hautsympathisch, aber durch das bisher noch nicht genug erforschte Problem Mikroplastik und dessen Folgen für die Gesundheit des Menschen kann man Polyester zusammenfassend nur als mäßig gut einstufen. In Sachen Nachhaltigkeit ist Polyester natürlich ein Nachteil, da es sich bei Erdöl um eine nicht-erneuerbare Ressource handelt und Plastik auch schädlich für die Umwelt ist. Die Herstellung von Polyester geschieht mit dem industriellen Schmelzspinnverfahren und ist somit gering aufwändig, das ist auch ein Grund für den billigen Preis. Praktisch ist Polyester auf jeden Fall es ist wärmeisolierend, atmungsaktiv und zerknittert nicht. Jedoch kann es wie andere Kleidungsstoffe eingehen. ",
+          "<h3>Baumwolle</h3>",
+          "Preislich kann Baumwolle relativ gut mit Polyester mithalten, dies liegt aber auch an den billigen Produktionsländern Indien und China. Gesundheitlich gibt es bei Baumwolle keine Mängel. Als nachwachsender Rohstoff gilt Baumwolle eigentlich als nachhaltig aber durch den langen Importier Weg, der einen Ausstoß an Emissionen bedeutet, hat Baumwolle auch einen Nachteil. In Sachen Herstellung ist Baumwolle Polyester unterlegen, da der brauchbare Stoff in Kapseln wächst und diese einzeln gepflückt und dann mehrfach weiterverarbeitet wird. Ein Problem sind allerdings die Arbeitsbedingungen unter denen Arbeiter auf Plantagen in den Produktionsländern arbeiten müssen. Praktikabel ist Baumwolle durch die Pflegeleichtigkeit, die Atmungsaktivität und Saugfähigkeit. Mängel sind auch das Einlaufen und die Knitteranfälligkeit.",
+          "<h3>Wolle</h3>",
+          "Wolle kann preislich sehr teuer werden, vor allem wenn die Wolle zum Beispiel von der Kaschmirziege stammt, normale Wolle hat einen durchschnittlichen Preis von 15€ pro Meter. Gesundheitlich ist bei Wolle nichts zu beanstanden. Vorteilhaft ist bei Wolle auch die Nachhaltigkeit, da es ein nachwachsender Rohstoff, der auch lokal erzeugt werden kann, ist. Die Herstellung von Wolle ist relativ primitiv, da sie nur gewaschen und gesponnen werden muss. In der Kategorie Anwendbarkeit schneidet Wolle sehr gut ab, weil sie wärmeisolierend, atmungsaktiv und gering schmutzanfällig ist. Leider kann sie auch wie Polyester oder Baumwolle eingehen. ",
+          "<h3>Leinen</h3>",
+          "Preislich ist Leinenstoff nur durchschnittlich teuer mit 10€ pro Meter. Gesundheitlich gibt es wie bei Baumwolle und Wolle keine Mängel. Nachhaltig ist Leinen auch aus dem Grund, dass die Flachspflanze lokal in Deutschland wächst. Die Herstellung von Leinen ist allerdings eher aufwendig, weil der Flachs geröstet, in Wasser gebadet, getrocknet und dann gesponnen werden muss. Praktisch ist Leinen, da es von Natur aus pflegeleicht und reißfest ist und kaum schmutzanfällig ist. Einziger Mangel ist, dass Leinen leicht knittert."
       ]
     },
 

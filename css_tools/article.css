@@ -34,6 +34,6 @@ a:hover {
   color: var(--link_hover);
 }
 
-#article_text p {
+#article_text p,h3 {
   margin-left: 1vw;
 }

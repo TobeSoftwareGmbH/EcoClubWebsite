@@ -44,6 +44,8 @@ function displayArticle(id) {
   paragraphs = articleObject.paragraphs;
   //console.log(articleObject);
 
+  document.getElementById("article_text").innerHTML += "<p>" + description + "</p>";
+
   for(var i = 0; i < paragraphs.length; i++) {
     document.getElementById("article_text").innerHTML += "<p>" + paragraphs[i] + "</p>";
   }
