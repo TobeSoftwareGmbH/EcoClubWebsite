@@ -6,6 +6,8 @@
     <meta charset="utf-8"> <!--Änderung des Charsets-->
     <link rel="stylesheet" type="text/css" href="../css_tools/menu.css">
     <link rel="stylesheet" type="text/css" href="../css_tools/general_style.css">
+    <script type="text/javascript" src="../js_tools/lang_tools.js"></script>
+
     <base target="_parent"> <!--Alle Klicks werden an den parent, also die Seite, welche das Menü implementiert, weitergeleitet-->
   </head>
 
@@ -13,13 +15,14 @@
       <!-- Menüpunkte: Home, Über, Eco-Woche, Kurse-->
       <ul class="menu_ul">
         <li class="menu_item item_title menu_link"> Eco-Club </li>
-        <li class="menu_item item_home"> <a class="menu_link" href="../index.html">Start</a> </li>
-        <li class="menu_item item_contribute"> <a class="menu_link" href="../pages/Mitmachen/index.html">Mitmachen</a> </li>
-        <li class="menu_item item_articles"> <a class="menu_link" href="../pages/Articles/index.html">Artikel</a> </li>
+        <li class="menu_item item_home"> <a class="menu_link" href="../index.html" id="btn_start">Start</a> </li>
+        <li class="menu_item item_contribute"> <a class="menu_link" href="../pages/Mitmachen/index.html" id="btn_contribute">Mitmachen</a> </li>
+        <li class="menu_item item_articles"> <a class="menu_link" href="../pages/Articles/index.html" id="btn_articles">Artikel</a> </li>
 
         <!-- Menüpunkte: Evtl. ein Knopf zum Ändern der Sprache-->
-        <li class="menu_item item_right item_lang"> <a class="menu_link" href="">Sprache<a/> </li>
+        <li class="menu_item item_right item_lang"> <a class="menu_link" href="" id="btn_languages">Sprache<a/> </li>
       <ul>
   </div>
 
+  <script>setupMenu();</script>
 </html>

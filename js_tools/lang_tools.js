@@ -46,6 +46,19 @@ function setupIndexSlideshow() {
   return [h1, p1, h2, p2, h3, p3, h4, p4];
 }
 
+function setupMenu() {
+  var lang = getLang();
+
+  var json_object = JSON.parse(readTextFile("../JSON/lang_" + lang + ".json"));
+
+  var json_page_object = json_object["menu"];
+
+  document.getElementById("btn_start").innerHTML = json_page_object["home"];
+  document.getElementById("btn_contribute").innerHTML = json_page_object["contribute"];
+  document.getElementById("btn_articles").innerHTML = json_page_object["articles"];
+  document.getElementById("btn_languages").innerHTML = json_page_object["languages"];
+}
+
 
 
 function readTextFile(file) {
