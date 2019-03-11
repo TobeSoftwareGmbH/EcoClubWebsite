@@ -1,0 +1,37 @@
+{
+  "menu" :
+    {
+      "home": "Start",
+      "contribute": "Mitmachen",
+      "articles": "Artikel",
+      "languages": "Sprachen",
+  },
+
+
+  "footer" :
+    {
+      "message": "Diese Website wurde von Tobias Kamm und Mario San-Bento Furtado erstellt. Sie ist 100% Open-Source und auf GitHub einzusehen."
+    },
+
+
+  "home":
+    {
+      "slideshow_h1": "Zweiter Stern für uns!",
+      "slideshow_p1": "Bild der Verleihung vom 22. Oktober 2018",
+
+      "slideshow_h2": "Bild 2",
+      "slideshow_p2": "Beschreibung 2",
+
+      "slideshow_h3": "Bild 3",
+      "slideshow_p3": "Beschreibung 3",
+
+      "slideshow_h4": "Bild 4",
+      "slideshow_p4": "Beschreibung 4",
+
+      "heading_1": "Wilkommen auf der Website des Eco-Clubs an der ESM!",
+      "paragraph_1": "Mit insgesamt 3 verschiedenen Gruppen an 3 verschiedenen Tagen treffen wir uns jede Woche, um neue Themen zu besprechen, Experimente zu vollführen oder Projekte zu beginnen. Diese Website dient dazu, Einblicke in unsere aktuellen und kommenden Projekte und Kurse zu geben.",
+      "paragraph_2": "Unser Ziel ist, eine klimaneutrale Schule zu werden. Für unsere Bemühungen haben wir bereits einen zweiten Stern der 'Umweltschulen in Europa' erhalten, wobei unser Ziel ist, den dritten Stern zu ergattern.",
+
+      "heading_2": "Was ist 'Umweltschulen in Europa'?",
+      "paragraph_3": "'Umweltschulen in Europa' ist eine eine Auszeichnung, um die sich bayerische Schulen bewerben können. Um die Auszeichnung für ein Jahr zu erhalten, müssen sie mehrere Kriterien erfüllen, u.a. die Vorstellung von zwei Projekten zum Thema Umwelt und Nachhaltigkeit und eine Darstellung, wie Nachhaltigkeit im Schulleben verankert ist."
+    }
