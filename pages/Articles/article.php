@@ -11,17 +11,22 @@
   <body>
     <object class="menu animated fadeIn" type="text/html" data="../../html_tools/menu.html"></object>
 
-    <div id = "article" class = "animated fadeIn">
-      <h2 id = "article_title"></h2>
-      <i><p id = "author">Geschrieben von </p></i>
+    <div class="page_container">
+      <div class="content_wrap">
 
-      <div id="article_text">
+        <div id = "article" class = "animated fadeIn">
+          <h2 id = "article_title"></h2>
+          <i><p id = "author">Geschrieben von </p></i>
+
+          <div id="article_text">
+          </div>
+
+          <br><br>
+        </div>
+        
       </div>
-
-      <br><br>
+      <footer class="footer"><object class="bottom animated fadeIn" type="text/html" data="../../html_tools/bottom.html"></object></footer>
     </div>
-
-    <object class="bottom animated fadeIn" type="text/html" data="../../html_tools/bottom.html"></object>
   </body>
 
   <?php
