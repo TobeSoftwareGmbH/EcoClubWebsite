@@ -60,6 +60,16 @@ function setupMenu() {
 }
 
 
+function setupFooter() {
+  var lang = getLang();
+
+  var json_object = JSON.parse(readTextFile("../JSON/lang_" + lang + ".json"));
+
+  var json_page_object = json_object["footer"];
+
+  document.getElementById("footer_message").innerHTML = json_page_object["message"];
+}
+
 
 function readTextFile(file) {
     var rawFile = new XMLHttpRequest();
