@@ -6,7 +6,7 @@ function getLang () {
   else if(userLang.includes("de")) lang = "de";
   else lang = "en";
 
-  return "de"; //TODO
+  return lang;
 }
 
 function setupIndex() {
