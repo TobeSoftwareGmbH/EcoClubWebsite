@@ -70,6 +70,22 @@ h2 {
 	margin-left: 1vw;
 }
 
+.indent_1 {
+	margin-left: 1vw;
+}
+
+.indent_2 {
+	margin-left: 2vw;
+}
+
+.indent_3 {
+	margin-left: 3vw;
+}
+
+.indent_4 {
+	margin-left: 4vw;
+}
+
 footer {
 	bottom: 0px;
 }
