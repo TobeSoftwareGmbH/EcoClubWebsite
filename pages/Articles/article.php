@@ -23,10 +23,14 @@
 
           <br><br>
         </div>
-        
+
       </div>
       <footer class="footer"><object class="bottom animated fadeIn" type="text/html" data="../../html_tools/bottom.html"></object></footer>
     </div>
+
+    <noscript>
+      <META HTTP-EQUIV="Refresh" CONTENT="0;URL=noScript.html">
+    </noscript>
   </body>
 
   <?php
