@@ -7,6 +7,8 @@ function plusSlides(n) {
 }
 
 function showSlide() {
+  var strings = setupIndexSlideshow();
+
   if(page > maxPage) page = 1;
   if(page < 1) page = maxPage;
 
@@ -15,20 +17,20 @@ function showSlide() {
 
   switch(page) { //Je nach Seite eine andere Beschreibung
     case 1:
-      document.getElementById("img_heading_1").innerHTML = "Zweiter Stern für uns!";
-      document.getElementById("img_heading_2").innerHTML = "Bild der Verleihung vom 22. Oktober 2018";
+      document.getElementById("img_heading_1").innerHTML = strings[0];
+      document.getElementById("img_heading_2").innerHTML = strings[1];
       break;
     case 2:
-      document.getElementById("img_heading_1").innerHTML = "Bild 2";
-      document.getElementById("img_heading_2").innerHTML = "Beschreibung 2";
+      document.getElementById("img_heading_1").innerHTML = strings[2];
+      document.getElementById("img_heading_2").innerHTML = strings[3];
       break;
     case 3:
-      document.getElementById("img_heading_1").innerHTML = "Bild 3";
-      document.getElementById("img_heading_2").innerHTML = "Beschreibung 3";
+      document.getElementById("img_heading_1").innerHTML = strings[4];
+      document.getElementById("img_heading_2").innerHTML = strings[5];
       break;
     case 4:
-      document.getElementById("img_heading_1").innerHTML = "Bild 4";
-      document.getElementById("img_heading_2").innerHTML = "Beschreibung 4";
+      document.getElementById("img_heading_1").innerHTML = strings[6];
+      document.getElementById("img_heading_2").innerHTML = strings[7];
       break;
   }
 }
