@@ -30,10 +30,10 @@
 
       "heading_1": "Welcome to the Eco-Club's Website!",
       "paragraph_1": "With a total number of three groups on three different days, the Eco-Club meets weekly to discuss new topics, make experiments or to start new projects, all of this relating to make this school more environmentally friendly. This website is there to give you an insight into our current and future work.",
-      "paragraph_2": "Our goal is to be a climate-neutral school. For our work, we have already received the second star of the 'Umweltschulen in Europa' project, while our goal is to receive the third star.",
+      "paragraph_2": "Our goal is to be a climate-neutral school. For our work, we have already received the second star of the 'Umweltschulen in Europa' project, our goal is to receive the third star.",
 
       "heading_2": "What is 'Umweltschulen in Europa'?",
-      "paragraph_3": "'Umweltschulen in Europa' is an award for which bavarian schools can apply. To receive it for one year, they have to fulfill multiple criteria, including two projects about the topics of environment and sustainability."
+      "paragraph_3": "'Umweltschulen in Europa' is an award for which bavarian schools can apply. To receive it for one year, they have to fulfill a few criteria, including two projects about the topics of environment and sustainability."
     },
 
   "contribute":
@@ -56,10 +56,10 @@
   "articles":
     {
       "heading_1": "The articles of the Eco-Club",
-      "paragraph_1": "Often, you might be insecure about what is good for the environment and what not.<br>These articles have the aim to keep you informed about the most important topics.",
+      "paragraph_1": "Often, you might be insecure about what is actually good for the environment and what isn't.<br>These articles have the aim to keep you informed about the most important topics.",
       "paragraph_2": "In the future, there might be numerous articles here.<br>Right now however, you can only find the ones located opposite of Ms. Weidel's office.",
 
       "by": "by",
-      "published_at": "published at"
+      "published_at": "published on"
     }
 }
