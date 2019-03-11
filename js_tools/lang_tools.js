@@ -145,3 +145,10 @@ function readTextFile(file) {
 
     return allText;
 }
+
+function changeLanguage() {
+  console.log("Language changed");
+
+  var fs = require('fs');
+  var files = fs.readdirSync('/assets/photos/');
+}
