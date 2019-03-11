@@ -2,6 +2,26 @@
 @import url('color.css');
 
 /*Definierte Styles, welche für alle Websiten gelten*/
+
+
+/*Footer-Style:*/
+.page_container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content_wrap {
+  padding-bottom: 2rem;    /* Footer height */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;            /* Footer height */
+}
+
+
 object.menu {
 	position: sticky;
 	top: 0;
@@ -75,7 +95,7 @@ h2 {
 }
 
 .indent_2 {
-	margin-left: 2vw;
+	margin-left: 5vw;
 }
 
 .indent_3 {
