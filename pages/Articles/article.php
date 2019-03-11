@@ -29,7 +29,7 @@
     </div>
 
     <noscript>
-      <META HTTP-EQUIV="Refresh" CONTENT="0;URL=noScript.html">
+      <META HTTP-EQUIV="Refresh" CONTENT="0;URL=../../noScript.html">
     </noscript>
   </body>
 
