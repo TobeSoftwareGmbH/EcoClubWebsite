@@ -1,12 +1,7 @@
 img.img_right {
   float: right;
-  width: 30vh;
-  height: 30vh;
-  top: 0;
+  width: 30vmin;
+  height: 30vmin;
+  top: 1vmin;
   right: 0;
-  position: absolute;
-}
-
-p.skip_img {
-  margin-right: 32vh
 }
