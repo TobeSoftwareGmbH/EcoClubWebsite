@@ -10,7 +10,7 @@ Für das Ansehen der Website ist ein Server empfohlen. Befehl dafür: python -m 
 
 # Farben
 
-Ein empholener Color-Scheme ist unter https://paletton.com/#uid=12Y0u0kfKn86-zlb5rPjpiLomeU abrufbar
+Ein empfohlener Color-Scheme ist unter https://paletton.com/#uid=12Y0u0kfKn86-zlb5rPjpiLomeU abrufbar
 
 # Seiten
 
