@@ -6,7 +6,7 @@ dies ist das GitHub Repo für die Eco-Club Website (URL hier einfügen)
 # Bearbeiten
 
 Atom (https://atom.io/) ist für diese Prozedur empfohlen
-Für das Ansehen der Website ist ein Server empfohlen. Befehl dafür: python -m SimpleHTTPServer
+Für das Ansehen der Website ist ein php-fähiger Server empfohlen. Befehl dafür: python -m SimpleHTTPServer
 
 # Farben
 
