@@ -25,6 +25,7 @@ body {
 
 .menu_link {
   background-color: var(--primary);
+  cursor: pointer;
 }
 
 .menu_item .menu_link {
