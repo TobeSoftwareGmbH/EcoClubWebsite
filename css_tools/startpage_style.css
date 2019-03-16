@@ -1,7 +1,8 @@
 img.img_right {
   float: right;
-  width: 30vmin;
-  height: 30vmin;
+  width: 20vmin;
+  height: 20vmin;
   top: 1vmin;
   right: 0;
+  margin-left:  5vmin;
 }
