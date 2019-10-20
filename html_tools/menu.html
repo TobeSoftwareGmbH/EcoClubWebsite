@@ -15,16 +15,16 @@
       <!-- Menüpunkte: Home, Über, Eco-Woche, Kurse-->
       <ul class="menu_ul">
         <li class="menu_item item_title menu_link"> Eco-Club </li>
-        <li class="menu_item item_home"> <a class="menu_link" href="../index.html" id="btn_start">Start</a> </li>
-        <li class="menu_item item_contribute"> <a class="menu_link" href="../pages/Mitmachen/index.html" id="btn_contribute">Mitmachen</a> </li>
-        <li class="menu_item item_articles"> <a class="menu_link" href="../pages/Articles/index.html" id="btn_articles">Artikel</a> </li>
+        <li class="menu_item item_home"> <a class="menu_link translateable" href="../index.html" id="home">Start</a> </li>
+        <li class="menu_item item_contribute"> <a class="menu_link translateable" href="../pages/Mitmachen/index.html" id="contribute">Mitmachen</a> </li>
+        <li class="menu_item item_articles"> <a class="menu_link translateable" href="../pages/Articles/index.html" id="articles">Artikel</a> </li>
 
         <!-- Menüpunkte: Evtl. ein Knopf zum Ändern der Sprache-->
         <div id = "lang">
-          <li class="menu_item item_right item_lang" id = "languageButton"> <a class="menu_link" id="btn_languages" onclick = "changeLanguage()">Sprache<a/> </li>
+          <li class="menu_item item_right item_lang" id = "languageButton"> <a class="menu_link translateable" id="languages" onclick = "changeLanguage()">Sprache<a/> </li>
         </div>
       <ul>
   </div>
 
-  <script>setupMenu();</script>
+  <script>setupLanguage("menu", 1);</script>
 </html>

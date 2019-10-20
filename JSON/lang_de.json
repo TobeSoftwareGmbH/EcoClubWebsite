@@ -1,6 +1,7 @@
 {
   "menu" :
     {
+      "title": "Der Eco-Club an der ESM",
       "home": "Start",
       "contribute": "Mitmachen",
       "articles": "Artikel",
@@ -10,12 +11,14 @@
 
   "footer" :
     {
+      "title": "Der Eco-Club an der ESM",
       "message": "Diese Website wird von Tobias Kamm und Mario San-Bento Furtado erstellt. Sie ist 100% Open-Source und auf GitHub einzusehen."
     },
 
 
   "home":
     {
+      "title": "Der Eco-Club an der ESM",
       "slideshow_h1": "Zweiter Stern für uns!",
       "slideshow_p1": "Bild der Verleihung vom 22. Oktober 2018",
 
@@ -38,6 +41,7 @@
 
   "contribute":
     {
+      "title": "Mitmachen - Der Eco-Club an der ESM",
       "heading_1": "Du möchtest beim Eco-Club mitmachen?",
       "paragraph_1": "Das ist super! Hier findest du alle Infos zu allen verfügbaren Kursen:",
 
@@ -55,11 +59,19 @@
 
   "articles":
     {
+      "title": "Artikel - Der Eco-Club an der ESM",
       "heading_1": "Die Artikel des Eco-Clubs",
       "paragraph_1": "Oft hat man das Gefühl, nicht zu wissen, was nun eigentlich wirklich wichtig für die Umwelt ist.<br>Diese Artikel sind ein guter Ansatzpunkt, um sich über diverse Themen zu informieren.",
       "paragraph_2": "In Zukunft finden sich hier hoffentlich eine Vielzahl an Artikeln.<br>Zur Zeit aber nur die Artikel zur Vitrine gegenüber Frau Weidel's Büro.",
 
       "by": "von",
       "published_at": "veröffentlicht am"
-    }
+    },
+
+    "article":
+      {
+        "title": "Artikel - Der Eco-Club an der ESM",
+        "author": "Geschrieben von ",
+        "contact": "Für weitere Fragen und Kommentare: "
+      }
 }

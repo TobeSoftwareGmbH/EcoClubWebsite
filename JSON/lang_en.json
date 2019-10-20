@@ -1,6 +1,7 @@
 {
   "menu" :
     {
+      "title": "The ESM's Eco-Club",
       "home": "Home",
       "contribute": "Contribute",
       "articles": "Articles",
@@ -16,6 +17,7 @@
 
   "home":
     {
+      "title": "The ESM's Eco-Club",
       "slideshow_h1": "Our second star!",
       "slideshow_p1": "Picture of the ceremony on the 22 October 2018",
 
@@ -38,6 +40,7 @@
 
   "contribute":
     {
+      "title": "Contribute - The ESM's Eco-Club",
       "heading_1": "You want to take part in the Eco-Club?",
       "paragraph_1": "That's great! Here are all the available lessons and contact information:",
 
@@ -55,11 +58,19 @@
 
   "articles":
     {
+      "title": "Articles - The ESM's Eco-Club",
       "heading_1": "The articles of the Eco-Club",
       "paragraph_1": "Often, you might be insecure about what is actually good for the environment and what isn't.<br>These articles have the aim to keep you informed about the most important topics.",
       "paragraph_2": "In the future, there might be numerous articles here.<br>Right now however, you can only find the ones located opposite of Ms. Weidel's office.",
 
       "by": "by",
       "published_at": "published on"
+    },
+
+  "article":
+    {
+      "title": "Article - The ESM's Eco-Club",
+      "author": "Written by ",
+      "contact": "Contact for questions or comments: "
     }
 }

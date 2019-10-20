@@ -51,9 +51,11 @@ function displayArticle(id) {
   }
 
   document.getElementById("article_title").innerHTML = title;
-  document.getElementById("author").innerHTML += author;
 
-  document.getElementById("article").innerHTML += "<p>Für weitere Fragen und Kommentare: <a href='mailto:" + email + "'>" + email + "</a></p>";
+  document.getElementById("article").innerHTML += "<p id = 'contact' class='translateable'>Für weitere Fragen und Kommentare:</p>";
+  setupLanguage("article", 2);
+  document.getElementById("contact").innerHTML += "<a href='mailto:" + email + "'>" + email + "</a>"
+  document.getElementById("author").innerHTML += author;
 }
 
 function readTextFile(file) {

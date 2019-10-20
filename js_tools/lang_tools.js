@@ -1,34 +1,43 @@
 function getLang () {
-  var cookie = retrieve_cookie("lang");
+  var cookie = retrieve_cookie("lang"); //Wenn Sprache bereits gesetzt wurde, ist diese in einem Cookie gespeichert
 
-  if(cookie === "") {
-    var userLang = navigator.language || navigator.userLanguage;
+  if(cookie === "") { //Kein Cookie vorhanden
+    var userLang = navigator.language || navigator.userLanguage; //Browser-Sprache wird verwendet
     var lang;
 
-    if(userLang.includes("en")) lang = "en";
+    if(userLang.includes("en")) lang = "en"; //Format von Sprachen z.B. en-US, en-GB etc. alle werden zu en zusammengefasst
     else if(userLang.includes("de")) lang = "de";
-    else lang = "en";
+    else lang = "en"; //Sprache nicht verfügbar? Englisch ist die Lösung! :)
   } else {
-    lang = cookie;
+    lang = cookie; //Cookie vorhanden
   }
 
   return lang;
 }
 
-function setupIndex() {
+function setupLanguage(pageName, folderUp) {
   var lang = getLang();
+  var path = "";
 
-  var json_object = JSON.parse(readTextFile("JSON/lang_" + lang + ".json"));
+  for(var i1 = 0; i1 < folderUp; i1++) path += "../";
+  path += "JSON/lang_" + lang + ".json";
 
-  var json_page_object = json_object["home"];
+  var text = readTextFile(path);
+  var json_object = JSON.parse(text);
+  var json_page_object = json_object[pageName];
 
-  document.getElementById("heading_1").innerHTML = json_page_object["heading_1"];
-  document.getElementById("paragraph_1").innerHTML = json_page_object["paragraph_1"];
-  document.getElementById("paragraph_2").innerHTML = json_page_object["paragraph_2"];
+  var objectsToTranslate = document.getElementsByClassName("translateable");
+  console.log(objectsToTranslate);
 
-  document.getElementById("heading_2").innerHTML = json_page_object["heading_2"];
-  document.getElementById("paragraph_3").innerHTML = json_page_object["paragraph_3"];
+  for (var i = 0; i < objectsToTranslate.length; i++) {
+    var id = objectsToTranslate[i].id;
+    console.log(id);
+
+    document.getElementById(id).innerHTML = json_page_object[id];
+  }
+  document.title = json_page_object["title"];
 }
+
 
 function setupIndexSlideshow() {
   var lang = getLang();
@@ -52,42 +61,6 @@ function setupIndexSlideshow() {
   return [h1, p1, h2, p2, h3, p3, h4, p4];
 }
 
-function setupMenu() {
-  var lang = getLang();
-
-  var json_object = JSON.parse(readTextFile("../JSON/lang_" + lang + ".json"));
-
-  var json_page_object = json_object["menu"];
-
-  document.getElementById("btn_start").innerHTML = json_page_object["home"];
-  document.getElementById("btn_contribute").innerHTML = json_page_object["contribute"];
-  document.getElementById("btn_articles").innerHTML = json_page_object["articles"];
-  document.getElementById("btn_languages").innerHTML = json_page_object["languages"];
-}
-
-
-function setupFooter() {
-  var lang = getLang();
-
-  var json_object = JSON.parse(readTextFile("../JSON/lang_" + lang + ".json"));
-
-  var json_page_object = json_object["footer"];
-
-  document.getElementById("footer_message").innerHTML = json_page_object["message"];
-}
-
-
-function setupContribute() {
-  var lang = getLang();
-
-  var json_object = JSON.parse(readTextFile("../../JSON/lang_" + lang + ".json"));
-
-  var json_page_object = json_object["contribute"];
-
-  document.getElementById("heading_1").innerHTML = json_page_object["heading_1"];
-  document.getElementById("paragraph_1").innerHTML = json_page_object["paragraph_1"];
-}
-
 function setupAutoGenerateCourses() {
   var lang = getLang();
 
@@ -109,18 +82,6 @@ function setupAutoGenerateCourses() {
   return [mon, tue, wed, thu, fri, when, where, who, email];
 }
 
-
-function setupArticleHome() {
-  var lang = getLang();
-
-  var json_object = JSON.parse(readTextFile("../../JSON/lang_" + lang + ".json"));
-
-  var json_page_object = json_object["articles"];
-
-  document.getElementById("heading_1").innerHTML = json_page_object["heading_1"];
-  document.getElementById("paragraph_1").innerHTML = json_page_object["paragraph_1"];
-  document.getElementById("paragraph_2").innerHTML = json_page_object["paragraph_2"];
-}
 
 function setupAutomaticArticleLoading() {
   var lang = getLang();
