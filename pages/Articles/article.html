@@ -33,7 +33,13 @@
     </noscript>
   </body>
 
-  <?php
-    echo "<script type='text/javascript'>displayArticle(", $_GET['id'] ,")</script>"
-  ?>
+  <script type="text/javascript">
+    var url = window.location.href;
+    var parameters = url.split("?"); //Array: [url, id = x]
+    console.log(parameters);
+
+    var id = parameters[1].split("="); //Array: [id, x]
+    displayArticle(id[1]);
+  </script>
+
 </html>

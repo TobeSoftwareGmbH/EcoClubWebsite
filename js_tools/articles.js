@@ -17,7 +17,7 @@ function displayArticlePreview() {
     image_file = (articleObject.picture == "placeholder") ? "placeholder.png" : articleObject[3];
     pub_date = stringValues[1]+" " + articleObject.pub_date //not used
 
-    output += "<div class='article'><a href='article.php?id=" + art +"'><img class='art_img' src='../../img/articles_preview/"+image_file+"'></img>"
+    output += "<div class='article'><a href='article.html?id=" + art +"'><img class='art_img' src='../../img/articles_preview/"+image_file+"'></img>"
     output += "<div class='art_info'><h4 class='art_title'>" + title + "</h4><p class='art_author'>"+author+"</p><p class='art_description'>"+description+"</p></div>"
     output += "</a></div>"
     output += " <div style='clear: both;'></div> "
