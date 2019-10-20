@@ -5,8 +5,8 @@ dies ist das GitHub Repo für die Eco-Club Website (URL hier einfügen)
 
 # Bearbeiten
 
-Atom (https://atom.io/) ist für diese Prozedur empfohlen
-Für das Ansehen der Website ist ein php-fähiger Server empfohlen. Dafür ist ein Programm wie XAMPP notwendig.
+Atom (https://atom.io/) ist für diese Prozedur empfohlen.
+Da diese Webseite kein PHP benötigt, kann sie ohne Server lokal geöffnet werden. Im Falle eines Falles kann XAMPP verwendet werden.
 
 # Farben
 
